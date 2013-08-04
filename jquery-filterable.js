@@ -19,7 +19,7 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 (function($) {
-  $.fn.filterable = function() {
+	$.fn.filterable = function() {
 		this.each(function() {
 			// Save the table as variable so we can refer to it later
 			var table = this;
